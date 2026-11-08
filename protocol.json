@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-11-05T17:14:58.294906+00:00",
+  "purpose": "Prepared-data computational extension. No claim of independent source reconstruction, natural prevalence, prospective prediction or external validation.",
+  "seeds": [
+    20261105,
+    20261106,
+    20261107
+  ],
+  "models": [
+    "LR",
+    "RF"
+  ],
+  "split": "50/25/25 stratified; exact identical predictor rows removed after excluding conflicting-label groups, as in original primary protocol",
+  "beta": 2,
+  "distances": [
+    0.05,
+    0.1
+  ],
+  "max_budget": 2,
+  "solver_time_limit": 5,
+  "models_parameters": {
+    "LR": {
+      "C": 1,
+      "max_iter": 2000
+    },
+    "RF": {
+      "n_estimators": 120,
+      "min_samples_leaf": 5,
+      "max_features": "sqrt",
+      "n_jobs": 1
+    }
+  },
+  "runtime": "Concurrent dataset jobs; timing is diagnostic, not speedup evidence.",
+  "positive": "Encoded 1 except climate outcome=0; never flip classes solely to make positives rare.",
+  "test": "Reserved; no predictive performance evaluation.",
+  "preprocessing": "No new sampling; train-only median/most-frequent imputation, numeric scaling for LR, unknown-ignore one-hot for strings; prepared upstream scaling/selection may predate split.",
+  "selection_sha256": "9cbfcf4e7053ee7998e53657d6b5b46f13abcfe9562d55349ae4529bf40644ef",
+  "cpu": "AMD EPYC 9V74 80-Core Processor",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.39"
+}
