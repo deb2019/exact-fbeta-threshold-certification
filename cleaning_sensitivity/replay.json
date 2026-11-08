@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "analyses": 72,
+  "witnesses": 71,
+  "score_vectors": 36,
+  "group_disjoint_and_shared_assignment": true
+}
