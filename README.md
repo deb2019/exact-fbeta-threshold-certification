@@ -1,5 +1,7 @@
 # Exact Label-Edit Certificates for Empirical F-Measure Threshold Selection
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24086450.svg)](https://doi.org/10.5281/zenodo.24086450)
+
 Code, result tables and verification scripts for the paper *Exact Label-Edit Certificates for Empirical F-Measure Threshold Selection in Imbalanced Classification*.
 
 The paper asks: if a decision threshold is chosen by maximizing the empirical F_β score on validation data, what is the smallest number of validation-label edits that would change a given number of thresholded decisions? The repository contains exact algorithms for this question (all single-label reversals, all prevalence-preserving swaps, and a grouped dynamic program for any bounded edit budget), together with the results of every experiment reported in the paper.
@@ -29,7 +31,7 @@ Run `check_public.py` first: the two theory scripts rewrite their own JSON repor
 
 ## Full replay
 
-The saved score arrays (`*/scores/*.npz`) and per-task folders of the prepared extension (`prepared_extension/results/`) are too many and too large for this repository, so they are kept in the archived full package [DOI to be added]. Folder READMEs that mention them refer to that package. With the package extracted:
+The saved score arrays (`*/scores/*.npz`) and per-task folders of the prepared extension (`prepared_extension/results/`) are too many and too large for this repository, so they are kept in the full source package, available from the corresponding author on request. Folder READMEs that mention them refer to that package. With the package extracted:
 
 ```bash
 python integration/verify_all.py
