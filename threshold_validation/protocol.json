@@ -1,0 +1,64 @@
+{
+  "created_utc": "2026-10-07T13:58:18.282220+00:00",
+  "purpose": "Post-development computational validation, not external clinical validation or preregistration",
+  "datasets": {
+    "ctg": {
+      "source": "https://doi.org/10.24432/C51S4N",
+      "positive": "NSP=3",
+      "negative": "NSP=1 or 2",
+      "features": "21 numbered diagnostic features only; no CLASS or morphology indicators"
+    },
+    "wdbc": {
+      "source": "https://doi.org/10.24432/C5DW2B",
+      "positive": "M",
+      "negative": "B",
+      "features": "30 measurements; ID excluded"
+    }
+  },
+  "seeds": [
+    20261007,
+    20261008,
+    20261009
+  ],
+  "split": "stratified 50/25/25, seed then seed+1",
+  "preprocessing": "Exclude all feature-identical conflicting-label groups; keep first duplicate feature vector. Train-only median imputation; LR train-only standardization.",
+  "models": {
+    "LR": {
+      "C": 1,
+      "max_iter": 2000
+    },
+    "RF": {
+      "n_estimators": 120,
+      "min_samples_leaf": 5,
+      "max_features": "sqrt",
+      "n_jobs": 2
+    }
+  },
+  "beta": 2,
+  "primary_distance_fraction": 0.05,
+  "secondary_distance_fraction": 0.1,
+  "max_budget": 2,
+  "time_limit_seconds": 5,
+  "tie_rule": "highest threshold / fewest positive predictions",
+  "score_rounding": false,
+  "test_policy": "test rows reserved; no prediction or evaluation on test data",
+  "checks": "Fraction witness enumeration and independent all-single-edit verdict",
+  "raw_sha256": {
+    "ctg.zip": "ba2853564e282779907242b7bd8a83265d9fc4e79bb008573967daa16677bb6c",
+    "wdbc.zip": "bc154869ef13f753f9e2b5a17e248cfe1ba4b6721db7c4da9f4880e40b05d3af"
+  },
+  "code_sha256": {
+    "budget_v2.py": "024ca586583b4b6a0925369798a17bda152045c0f1b5e73be94856789facc6b9",
+    "exact_influence.py": "7cc544482e5589301b0f6605daf0fd6c50cadf3a38ab790ef6961d0c291cbcb7",
+    "minimum_budget.py": "33db61abec106813bb0821e4ce5ddf7322af10289b61afba542c0f451adf2660"
+  },
+  "runner_sha256": "eb767cf92749a802b590e87813ab53aac5596fdc8f80cd9a17d80cab5bc7bedc",
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "sklearn": "1.8.0",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "cpu": "AMD EPYC 9V74 80-Core Processor"
+  }
+}
