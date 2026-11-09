@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "complete_tasks": 71,
+  "analyses": 852,
+  "vectors": 426,
+  "witnesses": 301,
+  "outcomes": {
+    "lower_bound": 551,
+    "exact": 301
+  }
+}

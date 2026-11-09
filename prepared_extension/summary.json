@@ -1,0 +1,135 @@
+{
+  "tasks": 71,
+  "vectors": 426,
+  "analyses": 852,
+  "witnesses": 301,
+  "timeouts": 0,
+  "minimum_validation_size": 3,
+  "maximum_validation_size": 70931,
+  "category_rows": [
+    {
+      "category": "Cyber-Security",
+      "tasks": 9,
+      "fraction": 0.05,
+      "analyses": 54,
+      "one": 4,
+      "two": 7,
+      "at_least_three": 43,
+      "unknown": 0
+    },
+    {
+      "category": "Cyber-Security",
+      "tasks": 9,
+      "fraction": 0.1,
+      "analyses": 54,
+      "one": 0,
+      "two": 0,
+      "at_least_three": 54,
+      "unknown": 0
+    },
+    {
+      "category": "Finance and Marketing",
+      "tasks": 32,
+      "fraction": 0.05,
+      "analyses": 192,
+      "one": 76,
+      "two": 44,
+      "at_least_three": 72,
+      "unknown": 0
+    },
+    {
+      "category": "Finance and Marketing",
+      "tasks": 32,
+      "fraction": 0.1,
+      "analyses": 192,
+      "one": 39,
+      "two": 38,
+      "at_least_three": 115,
+      "unknown": 0
+    },
+    {
+      "category": "Fraud / insurance",
+      "tasks": 8,
+      "fraction": 0.05,
+      "analyses": 48,
+      "one": 3,
+      "two": 3,
+      "at_least_three": 42,
+      "unknown": 0
+    },
+    {
+      "category": "Fraud / insurance",
+      "tasks": 8,
+      "fraction": 0.1,
+      "analyses": 48,
+      "one": 1,
+      "two": 2,
+      "at_least_three": 45,
+      "unknown": 0
+    },
+    {
+      "category": "Maintenance / other",
+      "tasks": 9,
+      "fraction": 0.05,
+      "analyses": 54,
+      "one": 21,
+      "two": 6,
+      "at_least_three": 27,
+      "unknown": 0
+    },
+    {
+      "category": "Maintenance / other",
+      "tasks": 9,
+      "fraction": 0.1,
+      "analyses": 54,
+      "one": 11,
+      "two": 7,
+      "at_least_three": 36,
+      "unknown": 0
+    },
+    {
+      "category": "Medical",
+      "tasks": 13,
+      "fraction": 0.05,
+      "analyses": 78,
+      "one": 18,
+      "two": 10,
+      "at_least_three": 50,
+      "unknown": 0
+    },
+    {
+      "category": "Medical",
+      "tasks": 13,
+      "fraction": 0.1,
+      "analyses": 78,
+      "one": 3,
+      "two": 8,
+      "at_least_three": 67,
+      "unknown": 0
+    },
+    {
+      "category": "All",
+      "tasks": 71,
+      "fraction": 0.05,
+      "analyses": 426,
+      "one": 122,
+      "two": 70,
+      "at_least_three": 234,
+      "unknown": 0
+    },
+    {
+      "category": "All",
+      "tasks": 71,
+      "fraction": 0.1,
+      "analyses": 426,
+      "one": 54,
+      "two": 55,
+      "at_least_three": 317,
+      "unknown": 0
+    }
+  ],
+  "prepared_positive_rate_range": [
+    0.0011800236004720095,
+    0.7456953642384105
+  ]
+}
