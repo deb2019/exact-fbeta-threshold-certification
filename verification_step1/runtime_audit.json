@@ -1,0 +1,10 @@
+{
+  "source": "threshold_validation/results.json",
+  "source_sha256": "9d7e8d12da06ec6bdb0a7e8e1fccb301bfdd78aeb6cb27f7b557d7f7c69ca48b",
+  "n_calls": 24,
+  "median_seconds": 0.003469452499984982,
+  "rounded_4dp": "0.0035",
+  "previous_manuscript_text": "0.0034",
+  "corrected_manuscript_text": "0.0035",
+  "timings_rerun": false
+}

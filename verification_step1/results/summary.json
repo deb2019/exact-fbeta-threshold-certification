@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "scenarios": 8172,
+  "variant_checks": 24516,
+  "by_n": {
+    "1": 36,
+    "2": 216,
+    "3": 576,
+    "4": 2160,
+    "5": 5184
+  },
+  "mismatches": [],
+  "elapsed_seconds": 8.849841751999975,
+  "completed_utc": "2026-10-15T19:14:16.798623+00:00",
+  "protocol_sha256": "be80bc981590ae697136321c56cc9fd45501a2795185d3a52d5c36f26702b416",
+  "checks_sha256": "0f3736895e01e8be089c1493ee82068ba880b7a309983da270e1d531b0565f92",
+  "limits": "Exhaustive labels within three score patterns for n<=5; not exhaustive over all score partitions or a proof for arbitrary n."
+}

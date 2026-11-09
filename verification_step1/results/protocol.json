@@ -1,0 +1,49 @@
+{
+  "started_utc": "2026-10-15T19:14:07.928883+00:00",
+  "purpose": "New saved rerun of the described small-instance design; not recovery of the lost original inline script",
+  "n": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "score_patterns": [
+    "distinct",
+    "paired_ties",
+    "all_tied"
+  ],
+  "labels": "all 2^n binary vectors",
+  "beta_squared": [
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      4,
+      1
+    ]
+  ],
+  "distance": "sorted unique {1,max(1,n//2),n}",
+  "budget": "all integers 0..n",
+  "oracle": "explicit threshold prediction vectors and exact Fraction F-beta; enumerate all edited labels",
+  "tie_rule": "highest threshold; zero denominator objective=0",
+  "variants": [
+    "pairwise_no_pruning",
+    "pairwise_pruning",
+    "deque_pruning"
+  ],
+  "code_sha256": {
+    "budget_ablation.py": "3665489b2cea5bc4ce1306ce1ef6a807216e34d145cfd884648b90b279d84a21",
+    "exact_influence.py": "7cc544482e5589301b0f6605daf0fd6c50cadf3a38ab790ef6961d0c291cbcb7",
+    "minimum_budget.py": "33db61abec106813bb0821e4ce5ddf7322af10289b61afba542c0f451adf2660"
+  },
+  "verifier_sha256": "4abbba0f4bc175a0d06e132931e418b51e5cb26d2d62aca8a7cccee9a89cd83b",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39"
+}
