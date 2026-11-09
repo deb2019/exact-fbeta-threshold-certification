@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-10-16T15:51:55.862142+00:00",
+  "source": "https://archive.ics.uci.edu/dataset/222/bank+marketing",
+  "doi": "10.24432/C5K306",
+  "license": "CC BY 4.0",
+  "citation": "Moro S, Rita P, Cortez P (2014), Bank Marketing, UCI",
+  "file": "bank.zip/bank-full.csv",
+  "positive": "y=yes",
+  "features": "All predictors except duration (last-call duration); unknown treated as explicit category",
+  "cleaning": "Retain all raw rows; feature-identical groups cannot cross train/certification partitions",
+  "split": "GroupShuffleSplit test_size=.5; 50% groups training, 50% certification; no predictive test evaluation",
+  "seeds": [
+    20261022,
+    20261023,
+    20261024
+  ],
+  "sizes": [
+    1000,
+    5000,
+    10000,
+    "full"
+  ],
+  "subsets": "Nested random row prefixes of full certification set; seed+100; no stratification or reselection",
+  "models": "LR C=1 max_iter=2000; RF120 minleaf5 max_features=sqrt n_jobs2; train-only imputation, LR scaling, onehot categorical",
+  "beta": 2,
+  "distances": [
+    0.05,
+    0.1
+  ],
+  "max_budget": 2,
+  "time_limit_seconds": 5,
+  "repeats": 3,
+  "timing": "First call and two additional timed calls; median plus all samples; includes solver preparation, excludes training and verification; not baseline speedup",
+  "solver_sha256": "024ca586583b4b6a0925369798a17bda152045c0f1b5e73be94856789facc6b9",
+  "limitations": "One dataset; nested sizes and repeated models dependent; random feature groups not verified clients or temporal validity; no predictive accuracy claim"
+}

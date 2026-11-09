@@ -1,0 +1,30 @@
+{
+  "cpu": "INTEL(R) XEON(R) PLATINUM 8573C",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "pandas": "2.2.3",
+  "sklearn": "1.8.0",
+  "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+  "raw_sha256": "e0bf5f5de5b846e2f18e9d90606637267d46dfa260e0f17bb12e605db5efbeb4",
+  "runner_sha256": "d2709c6d42fb8d06f7905ca388e70fd1c28033aecba78a3128b65ba83a043fb9",
+  "n": 45211,
+  "positives": 5289,
+  "features": [
+    "age",
+    "job",
+    "marital",
+    "education",
+    "default",
+    "balance",
+    "housing",
+    "loan",
+    "contact",
+    "day",
+    "month",
+    "campaign",
+    "pdays",
+    "previous",
+    "poutcome"
+  ],
+  "feature_groups": 45195
+}

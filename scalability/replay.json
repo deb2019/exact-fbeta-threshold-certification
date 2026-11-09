@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "analyses": 48,
+  "witnesses": 11,
+  "score_vectors": 24,
+  "nested_subsets_and_group_disjointness": true
+}
