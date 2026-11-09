@@ -1,0 +1,9 @@
+{
+  "small_configurations": 756,
+  "small_swaps": 6138,
+  "real_checks": 360,
+  "runs": 60,
+  "total_pairs": 129123582,
+  "all_passed": true,
+  "test_data_used": false
+}
