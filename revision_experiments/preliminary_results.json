@@ -1,0 +1,1258 @@
+[
+  {
+    "case": "synthetic_distinct_64",
+    "n": 64,
+    "g": 64,
+    "positives": 3,
+    "d": 4,
+    "methods": {
+      "DP": [
+        {
+          "seconds": 0.0006984799999827374,
+          "feasible": true,
+          "cost": 1,
+          "target": 14,
+          "base": 58,
+          "stats": {
+            "candidate_counts": 16,
+            "envelope_pruned": 15,
+            "dp_started": 1,
+            "dp_stages": 64
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            49
+          ]
+        },
+        {
+          "seconds": 0.000645329999997557,
+          "feasible": true,
+          "cost": 1,
+          "target": 14,
+          "base": 58,
+          "stats": {
+            "candidate_counts": 16,
+            "envelope_pruned": 15,
+            "dp_started": 1,
+            "dp_stages": 64
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            49
+          ]
+        },
+        {
+          "seconds": 0.0006964369999877817,
+          "feasible": true,
+          "cost": 1,
+          "target": 14,
+          "base": 58,
+          "stats": {
+            "candidate_counts": 16,
+            "envelope_pruned": 15,
+            "dp_started": 1,
+            "dp_stages": 64
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            49
+          ]
+        }
+      ],
+      "pair_scan": [
+        {
+          "seconds": 0.0007622079999691778,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            23
+          ],
+          "tested": 64
+        },
+        {
+          "seconds": 0.0007594940000217321,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            23
+          ],
+          "tested": 64
+        },
+        {
+          "seconds": 0.0010223270001006313,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            23
+          ],
+          "tested": 64
+        }
+      ],
+      "MILP_HiGHS": [
+        {
+          "seconds": 0.12089675499987607,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            49
+          ],
+          "solver_statuses": [
+            0,
+            0
+          ]
+        },
+        {
+          "seconds": 0.11774874000002455,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            49
+          ],
+          "solver_statuses": [
+            0,
+            0
+          ]
+        },
+        {
+          "seconds": 0.11932966199992734,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            49
+          ],
+          "solver_statuses": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case": "synthetic_distinct_128",
+    "n": 128,
+    "g": 128,
+    "positives": 11,
+    "d": 7,
+    "methods": {
+      "DP": [
+        {
+          "seconds": 0.0016631989999496,
+          "feasible": true,
+          "cost": 1,
+          "target": 121,
+          "base": 114,
+          "stats": {
+            "candidate_counts": 552,
+            "envelope_pruned": 551,
+            "dp_started": 1,
+            "dp_stages": 128
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            93
+          ]
+        },
+        {
+          "seconds": 0.0017891379998218326,
+          "feasible": true,
+          "cost": 1,
+          "target": 121,
+          "base": 114,
+          "stats": {
+            "candidate_counts": 552,
+            "envelope_pruned": 551,
+            "dp_started": 1,
+            "dp_stages": 128
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            93
+          ]
+        },
+        {
+          "seconds": 0.0018209510001270246,
+          "feasible": true,
+          "cost": 1,
+          "target": 121,
+          "base": 114,
+          "stats": {
+            "candidate_counts": 552,
+            "envelope_pruned": 551,
+            "dp_started": 1,
+            "dp_stages": 128
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            93
+          ]
+        }
+      ],
+      "pair_scan": [
+        {
+          "seconds": 0.0015203899999960413,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            93
+          ],
+          "tested": 128
+        },
+        {
+          "seconds": 0.0017389439999533352,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            93
+          ],
+          "tested": 128
+        },
+        {
+          "seconds": 0.0015085780000845261,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            93
+          ],
+          "tested": 128
+        }
+      ],
+      "MILP_HiGHS": [
+        {
+          "seconds": 5.020121086000017,
+          "status": "timeout",
+          "certified_lower_bound": 1,
+          "upper_bound": null,
+          "solver_statuses": [
+            1
+          ]
+        },
+        {
+          "seconds": 5.038561449999861,
+          "status": "timeout",
+          "certified_lower_bound": 1,
+          "upper_bound": null,
+          "solver_statuses": [
+            1
+          ]
+        },
+        {
+          "seconds": 5.0343633180000325,
+          "status": "timeout",
+          "certified_lower_bound": 1,
+          "upper_bound": null,
+          "solver_statuses": [
+            1
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case": "synthetic_distinct_256",
+    "n": 256,
+    "g": 256,
+    "positives": 24,
+    "d": 13,
+    "methods": {
+      "DP": [
+        {
+          "seconds": 0.004860151000002588,
+          "feasible": true,
+          "cost": 1,
+          "target": 254,
+          "base": 235,
+          "stats": {
+            "candidate_counts": 1147,
+            "envelope_pruned": 1144,
+            "dp_started": 3,
+            "dp_stages": 753
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            181
+          ]
+        },
+        {
+          "seconds": 0.004844253000101162,
+          "feasible": true,
+          "cost": 1,
+          "target": 254,
+          "base": 235,
+          "stats": {
+            "candidate_counts": 1147,
+            "envelope_pruned": 1144,
+            "dp_started": 3,
+            "dp_stages": 753
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            181
+          ]
+        },
+        {
+          "seconds": 0.004905778999955146,
+          "feasible": true,
+          "cost": 1,
+          "target": 254,
+          "base": 235,
+          "stats": {
+            "candidate_counts": 1147,
+            "envelope_pruned": 1144,
+            "dp_started": 3,
+            "dp_stages": 753
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            181
+          ]
+        }
+      ],
+      "pair_scan": [
+        {
+          "seconds": 0.010347038999952929,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            131
+          ],
+          "tested": 256
+        },
+        {
+          "seconds": 0.003828681999948458,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            131
+          ],
+          "tested": 256
+        },
+        {
+          "seconds": 0.0036980859999857785,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            131
+          ],
+          "tested": 256
+        }
+      ],
+      "MILP_HiGHS": [
+        {
+          "seconds": 5.1463239770000655,
+          "status": "timeout",
+          "certified_lower_bound": 1,
+          "upper_bound": null,
+          "solver_statuses": [
+            2,
+            1
+          ]
+        },
+        {
+          "seconds": 5.1449309300001005,
+          "status": "timeout",
+          "certified_lower_bound": 1,
+          "upper_bound": null,
+          "solver_statuses": [
+            2,
+            1
+          ]
+        },
+        {
+          "seconds": 5.150177053000107,
+          "status": "timeout",
+          "certified_lower_bound": 1,
+          "upper_bound": null,
+          "solver_statuses": [
+            2,
+            1
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case": "synthetic_16groups_64",
+    "n": 64,
+    "g": 16,
+    "positives": 2,
+    "d": 4,
+    "methods": {
+      "DP": [
+        {
+          "seconds": 0.00033865799991872336,
+          "feasible": true,
+          "cost": 1,
+          "target": 4,
+          "base": 6,
+          "stats": {
+            "candidate_counts": 6,
+            "envelope_pruned": 5,
+            "dp_started": 1,
+            "dp_stages": 16
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            17
+          ]
+        },
+        {
+          "seconds": 0.0002593090000573284,
+          "feasible": true,
+          "cost": 1,
+          "target": 4,
+          "base": 6,
+          "stats": {
+            "candidate_counts": 6,
+            "envelope_pruned": 5,
+            "dp_started": 1,
+            "dp_stages": 16
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            17
+          ]
+        },
+        {
+          "seconds": 0.0002534899999773188,
+          "feasible": true,
+          "cost": 1,
+          "target": 4,
+          "base": 6,
+          "stats": {
+            "candidate_counts": 6,
+            "envelope_pruned": 5,
+            "dp_started": 1,
+            "dp_stages": 16
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            17
+          ]
+        }
+      ],
+      "pair_scan": [
+        {
+          "seconds": 0.00039945899993654166,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            17
+          ],
+          "tested": 18
+        },
+        {
+          "seconds": 0.0003111870000793715,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            17
+          ],
+          "tested": 18
+        },
+        {
+          "seconds": 0.000298638000003848,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            17
+          ],
+          "tested": 18
+        }
+      ],
+      "MILP_HiGHS": [
+        {
+          "seconds": 0.0035386480001307064,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            17
+          ],
+          "solver_statuses": [
+            0
+          ]
+        },
+        {
+          "seconds": 0.0033307560001958336,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            17
+          ],
+          "solver_statuses": [
+            0
+          ]
+        },
+        {
+          "seconds": 0.003166930000134016,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            17
+          ],
+          "solver_statuses": [
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case": "synthetic_16groups_128",
+    "n": 128,
+    "g": 16,
+    "positives": 13,
+    "d": 7,
+    "methods": {
+      "DP": [
+        {
+          "seconds": 0.00030026100012037205,
+          "feasible": true,
+          "cost": 1,
+          "target": 8,
+          "base": 10,
+          "stats": {
+            "candidate_counts": 16,
+            "envelope_pruned": 15,
+            "dp_started": 1,
+            "dp_stages": 16
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            78
+          ]
+        },
+        {
+          "seconds": 0.0002999599998929625,
+          "feasible": true,
+          "cost": 1,
+          "target": 8,
+          "base": 10,
+          "stats": {
+            "candidate_counts": 16,
+            "envelope_pruned": 15,
+            "dp_started": 1,
+            "dp_stages": 16
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            78
+          ]
+        },
+        {
+          "seconds": 0.00033318900000267604,
+          "feasible": true,
+          "cost": 1,
+          "target": 8,
+          "base": 10,
+          "stats": {
+            "candidate_counts": 16,
+            "envelope_pruned": 15,
+            "dp_started": 1,
+            "dp_stages": 16
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            78
+          ]
+        }
+      ],
+      "pair_scan": [
+        {
+          "seconds": 0.00032168300003831973,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            78
+          ],
+          "tested": 25
+        },
+        {
+          "seconds": 0.0004426339999099582,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            78
+          ],
+          "tested": 25
+        },
+        {
+          "seconds": 0.00036808200002269587,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            78
+          ],
+          "tested": 25
+        }
+      ],
+      "MILP_HiGHS": [
+        {
+          "seconds": 0.01862472500010881,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            84
+          ],
+          "solver_statuses": [
+            0,
+            0
+          ]
+        },
+        {
+          "seconds": 0.01683458000002247,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            84
+          ],
+          "solver_statuses": [
+            0,
+            0
+          ]
+        },
+        {
+          "seconds": 0.017517104000035033,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            84
+          ],
+          "solver_statuses": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case": "synthetic_16groups_256",
+    "n": 256,
+    "g": 16,
+    "positives": 29,
+    "d": 13,
+    "methods": {
+      "DP": [
+        {
+          "seconds": 0.00035048600011577946,
+          "feasible": true,
+          "cost": 1,
+          "target": 10,
+          "base": 15,
+          "stats": {
+            "candidate_counts": 21,
+            "envelope_pruned": 20,
+            "dp_started": 1,
+            "dp_stages": 16
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            153
+          ]
+        },
+        {
+          "seconds": 0.00039266899989343074,
+          "feasible": true,
+          "cost": 1,
+          "target": 10,
+          "base": 15,
+          "stats": {
+            "candidate_counts": 21,
+            "envelope_pruned": 20,
+            "dp_started": 1,
+            "dp_stages": 16
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            153
+          ]
+        },
+        {
+          "seconds": 0.0003241459999117069,
+          "feasible": true,
+          "cost": 1,
+          "target": 10,
+          "base": 15,
+          "stats": {
+            "candidate_counts": 21,
+            "envelope_pruned": 20,
+            "dp_started": 1,
+            "dp_stages": 16
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            153
+          ]
+        }
+      ],
+      "pair_scan": [
+        {
+          "seconds": 0.00040382599991062307,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            153
+          ],
+          "tested": 31
+        },
+        {
+          "seconds": 0.00034779099996740115,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            153
+          ],
+          "tested": 31
+        },
+        {
+          "seconds": 0.0003486429998247331,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            153
+          ],
+          "tested": 31
+        }
+      ],
+      "MILP_HiGHS": [
+        {
+          "seconds": 0.013330895000081,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            48
+          ],
+          "solver_statuses": [
+            0,
+            0
+          ]
+        },
+        {
+          "seconds": 0.01396085999999741,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            48
+          ],
+          "solver_statuses": [
+            0,
+            0
+          ]
+        },
+        {
+          "seconds": 0.012897634999944785,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            48
+          ],
+          "solver_statuses": [
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case": "ctg_LR",
+    "n": 528,
+    "g": 528,
+    "positives": 44,
+    "d": 27,
+    "methods": {
+      "DP": [
+        {
+          "seconds": 0.013419197999837706,
+          "feasible": true,
+          "cost": 2,
+          "target": 81,
+          "base": 47,
+          "stats": {
+            "candidate_counts": 3246,
+            "envelope_pruned": 3231,
+            "dp_started": 15,
+            "dp_stages": 1653
+          },
+          "status": "exact",
+          "minimum_budget": 2,
+          "witness_indices": [
+            221,
+            499
+          ]
+        },
+        {
+          "seconds": 0.013407076000021334,
+          "feasible": true,
+          "cost": 2,
+          "target": 81,
+          "base": 47,
+          "stats": {
+            "candidate_counts": 3246,
+            "envelope_pruned": 3231,
+            "dp_started": 15,
+            "dp_stages": 1653
+          },
+          "status": "exact",
+          "minimum_budget": 2,
+          "witness_indices": [
+            221,
+            499
+          ]
+        },
+        {
+          "seconds": 0.015238544000112597,
+          "feasible": true,
+          "cost": 2,
+          "target": 81,
+          "base": 47,
+          "stats": {
+            "candidate_counts": 3246,
+            "envelope_pruned": 3231,
+            "dp_started": 15,
+            "dp_stages": 1653
+          },
+          "status": "exact",
+          "minimum_budget": 2,
+          "witness_indices": [
+            221,
+            499
+          ]
+        }
+      ],
+      "pair_scan": [
+        {
+          "seconds": 0.3924000360000264,
+          "status": "exact",
+          "minimum_budget": 2,
+          "witness_indices": [
+            406,
+            139
+          ],
+          "tested": 28631
+        },
+        {
+          "seconds": 0.38030268800002887,
+          "status": "exact",
+          "minimum_budget": 2,
+          "witness_indices": [
+            406,
+            139
+          ],
+          "tested": 28631
+        },
+        {
+          "seconds": 0.3769000209999831,
+          "status": "exact",
+          "minimum_budget": 2,
+          "witness_indices": [
+            406,
+            139
+          ],
+          "tested": 28631
+        }
+      ],
+      "MILP_HiGHS": [
+        {
+          "seconds": 10.152034503000095,
+          "status": "timeout",
+          "certified_lower_bound": 1,
+          "upper_bound": null,
+          "solver_statuses": [
+            1
+          ]
+        },
+        {
+          "seconds": 9.815182424000113,
+          "status": "timeout",
+          "certified_lower_bound": 1,
+          "upper_bound": null,
+          "solver_statuses": [
+            1
+          ]
+        },
+        {
+          "seconds": 9.857249590000038,
+          "status": "timeout",
+          "certified_lower_bound": 1,
+          "upper_bound": null,
+          "solver_statuses": [
+            1
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case": "ctg_RF",
+    "n": 528,
+    "g": 288,
+    "positives": 44,
+    "d": 27,
+    "methods": {
+      "DP": [
+        {
+          "seconds": 0.007588611000073797,
+          "status": "lower_bound",
+          "certified_lower_bound": 3
+        },
+        {
+          "seconds": 0.003638860999899407,
+          "status": "lower_bound",
+          "certified_lower_bound": 3
+        },
+        {
+          "seconds": 0.0035109929999634915,
+          "status": "lower_bound",
+          "certified_lower_bound": 3
+        }
+      ],
+      "pair_scan": [
+        {
+          "seconds": 0.30908946299996387,
+          "status": "lower_bound",
+          "certified_lower_bound": 3,
+          "tested": 41639
+        },
+        {
+          "seconds": 0.3191579389999788,
+          "status": "lower_bound",
+          "certified_lower_bound": 3,
+          "tested": 41639
+        },
+        {
+          "seconds": 0.3122250610001629,
+          "status": "lower_bound",
+          "certified_lower_bound": 3,
+          "tested": 41639
+        }
+      ],
+      "MILP_HiGHS": [
+        {
+          "seconds": 5.366017221999982,
+          "status": "timeout",
+          "certified_lower_bound": 1,
+          "upper_bound": null,
+          "solver_statuses": [
+            2,
+            2,
+            1
+          ]
+        },
+        {
+          "seconds": 5.457119171999921,
+          "status": "timeout",
+          "certified_lower_bound": 1,
+          "upper_bound": null,
+          "solver_statuses": [
+            2,
+            2,
+            1
+          ]
+        },
+        {
+          "seconds": 5.583815744000049,
+          "status": "timeout",
+          "certified_lower_bound": 1,
+          "upper_bound": null,
+          "solver_statuses": [
+            2,
+            2,
+            1
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case": "wdbc_LR",
+    "n": 142,
+    "g": 142,
+    "positives": 53,
+    "d": 8,
+    "methods": {
+      "DP": [
+        {
+          "seconds": 0.002541335999922012,
+          "feasible": true,
+          "cost": 1,
+          "target": 60,
+          "base": 50,
+          "stats": {
+            "candidate_counts": 397,
+            "envelope_pruned": 395,
+            "dp_started": 2,
+            "dp_stages": 202
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            100
+          ]
+        },
+        {
+          "seconds": 0.002103078999880381,
+          "feasible": true,
+          "cost": 1,
+          "target": 60,
+          "base": 50,
+          "stats": {
+            "candidate_counts": 397,
+            "envelope_pruned": 395,
+            "dp_started": 2,
+            "dp_stages": 202
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            100
+          ]
+        },
+        {
+          "seconds": 0.0020432620001429314,
+          "feasible": true,
+          "cost": 1,
+          "target": 60,
+          "base": 50,
+          "stats": {
+            "candidate_counts": 397,
+            "envelope_pruned": 395,
+            "dp_started": 2,
+            "dp_stages": 202
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            100
+          ]
+        }
+      ],
+      "pair_scan": [
+        {
+          "seconds": 0.0017943759999070608,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            104
+          ],
+          "tested": 142
+        },
+        {
+          "seconds": 0.0019178420000116603,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            104
+          ],
+          "tested": 142
+        },
+        {
+          "seconds": 0.0022655749999103136,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            104
+          ],
+          "tested": 142
+        }
+      ],
+      "MILP_HiGHS": [
+        {
+          "seconds": 5.028169910000088,
+          "status": "timeout",
+          "certified_lower_bound": 1,
+          "upper_bound": 2,
+          "solver_statuses": [
+            2,
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "seconds": 5.0288948500001425,
+          "status": "timeout",
+          "certified_lower_bound": 1,
+          "upper_bound": 2,
+          "solver_statuses": [
+            2,
+            2,
+            0,
+            1
+          ]
+        },
+        {
+          "seconds": 5.002274949999901,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            100
+          ],
+          "solver_statuses": [
+            2,
+            2,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "case": "wdbc_RF",
+    "n": 142,
+    "g": 124,
+    "positives": 53,
+    "d": 8,
+    "methods": {
+      "DP": [
+        {
+          "seconds": 0.002310823000016171,
+          "feasible": true,
+          "cost": 1,
+          "target": 55,
+          "base": 47,
+          "stats": {
+            "candidate_counts": 348,
+            "envelope_pruned": 344,
+            "dp_started": 4,
+            "dp_stages": 292
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            59
+          ]
+        },
+        {
+          "seconds": 0.0020930210000642546,
+          "feasible": true,
+          "cost": 1,
+          "target": 55,
+          "base": 47,
+          "stats": {
+            "candidate_counts": 348,
+            "envelope_pruned": 344,
+            "dp_started": 4,
+            "dp_stages": 292
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            59
+          ]
+        },
+        {
+          "seconds": 0.002628967999953602,
+          "feasible": true,
+          "cost": 1,
+          "target": 55,
+          "base": 47,
+          "stats": {
+            "candidate_counts": 348,
+            "envelope_pruned": 344,
+            "dp_started": 4,
+            "dp_stages": 292
+          },
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            59
+          ]
+        }
+      ],
+      "pair_scan": [
+        {
+          "seconds": 0.0016677890000664775,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            59
+          ],
+          "tested": 124
+        },
+        {
+          "seconds": 0.0016782850000254257,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            59
+          ],
+          "tested": 124
+        },
+        {
+          "seconds": 0.001968631999943682,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            59
+          ],
+          "tested": 124
+        }
+      ],
+      "MILP_HiGHS": [
+        {
+          "seconds": 3.558104609999873,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            121
+          ],
+          "solver_statuses": [
+            2,
+            2,
+            0,
+            0
+          ]
+        },
+        {
+          "seconds": 3.462157498000124,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            121
+          ],
+          "solver_statuses": [
+            2,
+            2,
+            0,
+            0
+          ]
+        },
+        {
+          "seconds": 3.494676894999884,
+          "status": "exact",
+          "minimum_budget": 1,
+          "witness_indices": [
+            121
+          ],
+          "solver_statuses": [
+            2,
+            2,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  }
+]

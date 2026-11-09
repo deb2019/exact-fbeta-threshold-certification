@@ -1,0 +1,25 @@
+{
+  "created_utc": "2026-10-17T11:01:11.677745+00:00",
+  "cases": [
+    "ctg_LR",
+    "ctg_RF",
+    "wdbc_LR",
+    "wdbc_RF",
+    "spambase_LR",
+    "spambase_RF"
+  ],
+  "beta_squared": [
+    1,
+    4
+  ],
+  "distance_fractions": [
+    0.01,
+    0.025,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "budget": 2,
+  "time_limit": 5,
+  "scope": "Descriptive reuse of six fixed score vectors; no independent generalization or new-data confirmation"
+}

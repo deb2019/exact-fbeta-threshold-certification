@@ -1,0 +1,22 @@
+{
+  "seed": 42081,
+  "n": [
+    64,
+    128,
+    256
+  ],
+  "patterns": [
+    "distinct",
+    "16groups"
+  ],
+  "budgets": [
+    2
+  ],
+  "distance_fraction": 0.05,
+  "repeats": 3,
+  "timeout_per_call": 10,
+  "includes_preparation": true,
+  "memory": "separate tracemalloc peak run; not RSS",
+  "baseline": "previous exact unpruned DP, same feasibility task",
+  "no_data_selection": "all six predefined configurations"
+}

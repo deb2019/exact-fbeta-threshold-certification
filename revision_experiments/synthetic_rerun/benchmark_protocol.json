@@ -1,0 +1,26 @@
+{
+  "seed": 829031,
+  "repeats": 3,
+  "sizes_flip": [
+    128,
+    512,
+    2048,
+    8192
+  ],
+  "sizes_swap": [
+    64,
+    128,
+    256,
+    512
+  ],
+  "positive_fraction": 0.1,
+  "scores": [
+    "distinct",
+    "16_tied_groups"
+  ],
+  "timing": "complete callable including sort/preparation; alternating order; median 3; one warmup",
+  "baseline": "batched (64 scenarios) exact int64 tournament cutoff scan, one initial sort, same-group label cache / group-pair compression",
+  "memory": "separate tracemalloc peak Python/NumPy traced allocations, not total RSS",
+  "threads": "single Python process; no training",
+  "warning": "synthetic scaling benchmark, not population or end-to-end ML performance"
+}

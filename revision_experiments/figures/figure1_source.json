@@ -1,0 +1,32 @@
+{
+  "run": "ctg_20261007_LR",
+  "dataset": "ctg",
+  "model": "LR",
+  "seed": 20261007,
+  "n_validation": 528,
+  "positives": 44,
+  "g": 528,
+  "distance_fraction": 0.05,
+  "d": 27,
+  "seconds": 0.014810032000013962,
+  "feasible": true,
+  "cost": 2,
+  "target": 81,
+  "base": 47,
+  "stats": {
+    "candidate_counts": 3246,
+    "envelope_pruned": 3231,
+    "dp_started": 15,
+    "dp_stages": 1653
+  },
+  "status": "exact",
+  "minimum_budget": 2,
+  "single_edit_check": "passed",
+  "witness_indices": [
+    221,
+    499
+  ],
+  "old_k": 47,
+  "new_k": 81,
+  "witness_verified": true
+}

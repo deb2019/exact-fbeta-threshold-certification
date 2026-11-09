@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "baseline_cases": 12,
+  "completed_timed_outputs_checked": 85,
+  "censored_timed_outputs": 23,
+  "baseline_witness_checks": 76,
+  "parameter_analyses": 60,
+  "parameter_witness_checks": 27
+}

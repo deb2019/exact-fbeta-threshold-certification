@@ -1,0 +1,904 @@
+[
+  {
+    "case": "ctg_LR",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.01,
+    "d": 6,
+    "feasible": true,
+    "cost": 2,
+    "target": 50,
+    "base": 44,
+    "stats": {
+      "candidate_counts": 3692,
+      "envelope_pruned": 3687,
+      "dp_started": 5,
+      "dp_stages": 730
+    },
+    "status": "exact",
+    "minimum_budget": 2,
+    "witness_indices": [
+      99,
+      149
+    ]
+  },
+  {
+    "case": "ctg_LR",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.025,
+    "d": 14,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "ctg_LR",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.05,
+    "d": 27,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "ctg_LR",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.1,
+    "d": 53,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "ctg_LR",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.2,
+    "d": 106,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "ctg_LR",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.01,
+    "d": 6,
+    "feasible": true,
+    "cost": 1,
+    "target": 55,
+    "base": 47,
+    "stats": {
+      "candidate_counts": 1255,
+      "envelope_pruned": 1247,
+      "dp_started": 8,
+      "dp_stages": 921
+    },
+    "status": "exact",
+    "minimum_budget": 1,
+    "witness_indices": [
+      246
+    ]
+  },
+  {
+    "case": "ctg_LR",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.025,
+    "d": 14,
+    "feasible": true,
+    "cost": 2,
+    "target": 61,
+    "base": 47,
+    "stats": {
+      "candidate_counts": 3517,
+      "envelope_pruned": 3491,
+      "dp_started": 26,
+      "dp_stages": 2322
+    },
+    "status": "exact",
+    "minimum_budget": 2,
+    "witness_indices": [
+      118,
+      218
+    ]
+  },
+  {
+    "case": "ctg_LR",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.05,
+    "d": 27,
+    "feasible": true,
+    "cost": 2,
+    "target": 81,
+    "base": 47,
+    "stats": {
+      "candidate_counts": 3246,
+      "envelope_pruned": 3231,
+      "dp_started": 15,
+      "dp_stages": 1653
+    },
+    "status": "exact",
+    "minimum_budget": 2,
+    "witness_indices": [
+      221,
+      499
+    ]
+  },
+  {
+    "case": "ctg_LR",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.1,
+    "d": 53,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "ctg_LR",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.2,
+    "d": 106,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "ctg_RF",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.01,
+    "d": 6,
+    "feasible": true,
+    "cost": 2,
+    "target": 53,
+    "base": 43,
+    "stats": {
+      "candidate_counts": 1851,
+      "envelope_pruned": 1842,
+      "dp_started": 9,
+      "dp_stages": 699
+    },
+    "status": "exact",
+    "minimum_budget": 2,
+    "witness_indices": [
+      10,
+      188
+    ]
+  },
+  {
+    "case": "ctg_RF",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.025,
+    "d": 14,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "ctg_RF",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.05,
+    "d": 27,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "ctg_RF",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.1,
+    "d": 53,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "ctg_RF",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.2,
+    "d": 106,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "ctg_RF",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.01,
+    "d": 6,
+    "feasible": true,
+    "cost": 1,
+    "target": 47,
+    "base": 58,
+    "stats": {
+      "candidate_counts": 95,
+      "envelope_pruned": 94,
+      "dp_started": 1,
+      "dp_stages": 288
+    },
+    "status": "exact",
+    "minimum_budget": 1,
+    "witness_indices": [
+      80
+    ]
+  },
+  {
+    "case": "ctg_RF",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.025,
+    "d": 14,
+    "feasible": true,
+    "cost": 2,
+    "target": 41,
+    "base": 58,
+    "stats": {
+      "candidate_counts": 123,
+      "envelope_pruned": 122,
+      "dp_started": 1,
+      "dp_stages": 288
+    },
+    "status": "exact",
+    "minimum_budget": 2,
+    "witness_indices": [
+      159,
+      281
+    ]
+  },
+  {
+    "case": "ctg_RF",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.05,
+    "d": 27,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "ctg_RF",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.1,
+    "d": 53,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "ctg_RF",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.2,
+    "d": 106,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "wdbc_LR",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.01,
+    "d": 2,
+    "feasible": true,
+    "cost": 1,
+    "target": 52,
+    "base": 50,
+    "stats": {
+      "candidate_counts": 435,
+      "envelope_pruned": 433,
+      "dp_started": 2,
+      "dp_stages": 194
+    },
+    "status": "exact",
+    "minimum_budget": 1,
+    "witness_indices": [
+      16
+    ]
+  },
+  {
+    "case": "wdbc_LR",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.025,
+    "d": 4,
+    "feasible": true,
+    "cost": 2,
+    "target": 54,
+    "base": 50,
+    "stats": {
+      "candidate_counts": 1132,
+      "envelope_pruned": 1129,
+      "dp_started": 3,
+      "dp_stages": 250
+    },
+    "status": "exact",
+    "minimum_budget": 2,
+    "witness_indices": [
+      59,
+      128
+    ]
+  },
+  {
+    "case": "wdbc_LR",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.05,
+    "d": 8,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "wdbc_LR",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.1,
+    "d": 15,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "wdbc_LR",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.2,
+    "d": 29,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "wdbc_LR",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.01,
+    "d": 2,
+    "feasible": true,
+    "cost": 1,
+    "target": 52,
+    "base": 50,
+    "stats": {
+      "candidate_counts": 435,
+      "envelope_pruned": 429,
+      "dp_started": 6,
+      "dp_stages": 416
+    },
+    "status": "exact",
+    "minimum_budget": 1,
+    "witness_indices": [
+      16
+    ]
+  },
+  {
+    "case": "wdbc_LR",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.025,
+    "d": 4,
+    "feasible": true,
+    "cost": 1,
+    "target": 54,
+    "base": 50,
+    "stats": {
+      "candidate_counts": 421,
+      "envelope_pruned": 417,
+      "dp_started": 4,
+      "dp_stages": 311
+    },
+    "status": "exact",
+    "minimum_budget": 1,
+    "witness_indices": [
+      128
+    ]
+  },
+  {
+    "case": "wdbc_LR",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.05,
+    "d": 8,
+    "feasible": true,
+    "cost": 1,
+    "target": 60,
+    "base": 50,
+    "stats": {
+      "candidate_counts": 397,
+      "envelope_pruned": 395,
+      "dp_started": 2,
+      "dp_stages": 202
+    },
+    "status": "exact",
+    "minimum_budget": 1,
+    "witness_indices": [
+      100
+    ]
+  },
+  {
+    "case": "wdbc_LR",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.1,
+    "d": 15,
+    "feasible": true,
+    "cost": 2,
+    "target": 65,
+    "base": 50,
+    "stats": {
+      "candidate_counts": 923,
+      "envelope_pruned": 918,
+      "dp_started": 5,
+      "dp_stages": 409
+    },
+    "status": "exact",
+    "minimum_budget": 2,
+    "witness_indices": [
+      30,
+      96
+    ]
+  },
+  {
+    "case": "wdbc_LR",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.2,
+    "d": 29,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "wdbc_RF",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.01,
+    "d": 2,
+    "feasible": true,
+    "cost": 1,
+    "target": 40,
+    "base": 47,
+    "stats": {
+      "candidate_counts": 81,
+      "envelope_pruned": 80,
+      "dp_started": 1,
+      "dp_stages": 124
+    },
+    "status": "exact",
+    "minimum_budget": 1,
+    "witness_indices": [
+      125
+    ]
+  },
+  {
+    "case": "wdbc_RF",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.025,
+    "d": 4,
+    "feasible": true,
+    "cost": 1,
+    "target": 40,
+    "base": 47,
+    "stats": {
+      "candidate_counts": 81,
+      "envelope_pruned": 80,
+      "dp_started": 1,
+      "dp_stages": 124
+    },
+    "status": "exact",
+    "minimum_budget": 1,
+    "witness_indices": [
+      125
+    ]
+  },
+  {
+    "case": "wdbc_RF",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.05,
+    "d": 8,
+    "feasible": true,
+    "cost": 2,
+    "target": 38,
+    "base": 47,
+    "stats": {
+      "candidate_counts": 115,
+      "envelope_pruned": 114,
+      "dp_started": 1,
+      "dp_stages": 124
+    },
+    "status": "exact",
+    "minimum_budget": 2,
+    "witness_indices": [
+      70,
+      114
+    ]
+  },
+  {
+    "case": "wdbc_RF",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.1,
+    "d": 15,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "wdbc_RF",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.2,
+    "d": 29,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "wdbc_RF",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.01,
+    "d": 2,
+    "feasible": true,
+    "cost": 1,
+    "target": 53,
+    "base": 47,
+    "stats": {
+      "candidate_counts": 403,
+      "envelope_pruned": 389,
+      "dp_started": 14,
+      "dp_stages": 813
+    },
+    "status": "exact",
+    "minimum_budget": 1,
+    "witness_indices": [
+      141
+    ]
+  },
+  {
+    "case": "wdbc_RF",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.025,
+    "d": 4,
+    "feasible": true,
+    "cost": 1,
+    "target": 53,
+    "base": 47,
+    "stats": {
+      "candidate_counts": 383,
+      "envelope_pruned": 373,
+      "dp_started": 10,
+      "dp_stages": 608
+    },
+    "status": "exact",
+    "minimum_budget": 1,
+    "witness_indices": [
+      141
+    ]
+  },
+  {
+    "case": "wdbc_RF",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.05,
+    "d": 8,
+    "feasible": true,
+    "cost": 1,
+    "target": 55,
+    "base": 47,
+    "stats": {
+      "candidate_counts": 348,
+      "envelope_pruned": 344,
+      "dp_started": 4,
+      "dp_stages": 292
+    },
+    "status": "exact",
+    "minimum_budget": 1,
+    "witness_indices": [
+      59
+    ]
+  },
+  {
+    "case": "wdbc_RF",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.1,
+    "d": 15,
+    "feasible": true,
+    "cost": 2,
+    "target": 62,
+    "base": 47,
+    "stats": {
+      "candidate_counts": 792,
+      "envelope_pruned": 790,
+      "dp_started": 2,
+      "dp_stages": 186
+    },
+    "status": "exact",
+    "minimum_budget": 2,
+    "witness_indices": [
+      30,
+      110
+    ]
+  },
+  {
+    "case": "wdbc_RF",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.2,
+    "d": 29,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "spambase_LR",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.01,
+    "d": 11,
+    "feasible": true,
+    "cost": 1,
+    "target": 450,
+    "base": 433,
+    "stats": {
+      "candidate_counts": 3708,
+      "envelope_pruned": 3704,
+      "dp_started": 4,
+      "dp_stages": 2395
+    },
+    "status": "exact",
+    "minimum_budget": 1,
+    "witness_indices": [
+      665
+    ]
+  },
+  {
+    "case": "spambase_LR",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.025,
+    "d": 27,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "spambase_LR",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.05,
+    "d": 53,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "spambase_LR",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.1,
+    "d": 106,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "spambase_LR",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.2,
+    "d": 211,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "spambase_LR",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.01,
+    "d": 11,
+    "feasible": true,
+    "cost": 1,
+    "target": 560,
+    "base": 450,
+    "stats": {
+      "candidate_counts": 3928,
+      "envelope_pruned": 3914,
+      "dp_started": 14,
+      "dp_stages": 8223
+    },
+    "status": "exact",
+    "minimum_budget": 1,
+    "witness_indices": [
+      856
+    ]
+  },
+  {
+    "case": "spambase_LR",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.025,
+    "d": 27,
+    "feasible": true,
+    "cost": 1,
+    "target": 560,
+    "base": 450,
+    "stats": {
+      "candidate_counts": 3768,
+      "envelope_pruned": 3754,
+      "dp_started": 14,
+      "dp_stages": 8223
+    },
+    "status": "exact",
+    "minimum_budget": 1,
+    "witness_indices": [
+      856
+    ]
+  },
+  {
+    "case": "spambase_LR",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.05,
+    "d": 53,
+    "feasible": true,
+    "cost": 1,
+    "target": 560,
+    "base": 450,
+    "stats": {
+      "candidate_counts": 3508,
+      "envelope_pruned": 3494,
+      "dp_started": 14,
+      "dp_stages": 8223
+    },
+    "status": "exact",
+    "minimum_budget": 1,
+    "witness_indices": [
+      856
+    ]
+  },
+  {
+    "case": "spambase_LR",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.1,
+    "d": 106,
+    "feasible": true,
+    "cost": 1,
+    "target": 560,
+    "base": 450,
+    "stats": {
+      "candidate_counts": 2978,
+      "envelope_pruned": 2968,
+      "dp_started": 10,
+      "dp_stages": 6098
+    },
+    "status": "exact",
+    "minimum_budget": 1,
+    "witness_indices": [
+      856
+    ]
+  },
+  {
+    "case": "spambase_LR",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.2,
+    "d": 211,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "spambase_RF",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.01,
+    "d": 11,
+    "feasible": true,
+    "cost": 2,
+    "target": 396,
+    "base": 415,
+    "stats": {
+      "candidate_counts": 1189,
+      "envelope_pruned": 1188,
+      "dp_started": 1,
+      "dp_stages": 1017
+    },
+    "status": "exact",
+    "minimum_budget": 2,
+    "witness_indices": [
+      547,
+      971
+    ]
+  },
+  {
+    "case": "spambase_RF",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.025,
+    "d": 27,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "spambase_RF",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.05,
+    "d": 53,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "spambase_RF",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.1,
+    "d": 106,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "spambase_RF",
+    "u": 1,
+    "v": 1,
+    "fraction": 0.2,
+    "d": 211,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "spambase_RF",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.01,
+    "d": 11,
+    "feasible": true,
+    "cost": 2,
+    "target": 426,
+    "base": 415,
+    "stats": {
+      "candidate_counts": 10179,
+      "envelope_pruned": 10164,
+      "dp_started": 15,
+      "dp_stages": 7031
+    },
+    "status": "exact",
+    "minimum_budget": 2,
+    "witness_indices": [
+      97,
+      387
+    ]
+  },
+  {
+    "case": "spambase_RF",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.025,
+    "d": 27,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "spambase_RF",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.05,
+    "d": 53,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "spambase_RF",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.1,
+    "d": 106,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  },
+  {
+    "case": "spambase_RF",
+    "u": 4,
+    "v": 1,
+    "fraction": 0.2,
+    "d": 211,
+    "status": "lower_bound",
+    "certified_lower_bound": 3
+  }
+]
