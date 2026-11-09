@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "production_radius_checks": 2504,
+  "witness_checks": 2263,
+  "tie_constraint_checks": 1360,
+  "n_max": 4,
+  "patterns": "all ordered contiguous tie partitions",
+  "beta_squared_pairs": [
+    [
+      1,
+      4
+    ],
+    [
+      1,
+      1
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      10000000000000000000000000000000000000007,
+      1000000000000000000000000000000000000003
+    ]
+  ],
+  "elapsed_seconds": 0.9691978200000904,
+  "limitations": "All partitions through n=4; not arbitrary-n proof. Alternate tie constraints verified; production solver remains smallest-index only.",
+  "code_hashes": {
+    "audit_checks.py": "cb04be223f4d900ed0714b6ec15a3c081ea31426be2c4c8c9614098b388b9f95",
+    "budget_v2.py": "024ca586583b4b6a0925369798a17bda152045c0f1b5e73be94856789facc6b9",
+    "minimum_budget.py": "33db61abec106813bb0821e4ce5ddf7322af10289b61afba542c0f451adf2660"
+  }
+}
