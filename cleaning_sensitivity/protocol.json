@@ -1,0 +1,26 @@
+{
+  "created_utc": "2026-10-16T15:45:54.787652+00:00",
+  "datasets": [
+    "blood",
+    "mammographic"
+  ],
+  "seeds": [
+    20261019,
+    20261020,
+    20261021
+  ],
+  "arms": [
+    "all_rows",
+    "deduplicate_same_label",
+    "exclude_conflicts"
+  ],
+  "split": "Feature-identical groups including missingness assigned jointly using GroupShuffleSplit: 50% groups train, remaining groups equally validation/test; seed then seed+1; raw group allocation shared by all arms. No stratification or split reselection.",
+  "arms_definition": {
+    "all_rows": "Keep all original rows, including conflicting labels",
+    "deduplicate_same_label": "Keep first row per feature vector and label; retain opposite-label representatives",
+    "exclude_conflicts": "Remove all conflicting-label feature groups, then keep first feature row"
+  },
+  "parameters": "Same features, train-only preprocessing, LR/RF settings, F2, B<=2, 5 seconds, d=ceil(.05n) and ceil(.10n) as source_benchmarks/protocol.json",
+  "interpretation": "Paired group assignments, but training/validation size, composition, d and scores vary; no causal estimate of cleaning alone and no population validity. Feature groups are not patient IDs.",
+  "solver_sha256": "024ca586583b4b6a0925369798a17bda152045c0f1b5e73be94856789facc6b9"
+}
