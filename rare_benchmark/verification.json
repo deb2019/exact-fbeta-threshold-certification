@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "analyses": 12,
+  "witnesses": 3,
+  "score_vectors": 6,
+  "all_rows_retained": true,
+  "group_disjoint": true,
+  "raw_n": 2536,
+  "raw_positives": 73
+}

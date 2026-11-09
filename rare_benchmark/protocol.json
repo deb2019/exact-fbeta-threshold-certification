@@ -1,0 +1,36 @@
+{
+  "created_utc": "2026-10-17T13:59:00.389803+00:00",
+  "dataset": "UCI Ozone Level Detection, onehr.data only",
+  "source": "https://archive.ics.uci.edu/dataset/172/ozone",
+  "doi": "10.24432/C5NG6W",
+  "citation": "Zhang K, Fan W, Yuan X (2008). Ozone Level Detection. UCI Machine Learning Repository.",
+  "download": "https://archive.ics.uci.edu/static/public/172/ozone+level+detection.zip",
+  "license": "CC BY 4.0, as stated on UCI dataset page",
+  "raw_sha256": "b0ff07fc723325743441dac8239ed1de6c9e1410afc40cb50cc273bd4b359325",
+  "retrieved_utc": "2026-10-17T13:59:00.390381+00:00",
+  "target": "last column: 1 ozone day, 0 normal day; original labels retained",
+  "features": "72 numeric predictors; first/date column excluded per source names file; ? becomes missing",
+  "selection": "one-hour task chosen for natural positive fraction below 5%; prevalence inspected before protocol freeze; no model/certificate outcomes inspected",
+  "curation": "all 2536 rows retained; no resampling, class weighting, label-dependent removal or positive subsampling",
+  "splits": "StratifiedGroupKFold 4 folds, shuffled: fold 0 validation, fold 1 reserved test, folds 2+3 train; feature-identical groups determined without labels, missing values kept in grouping; approximate 50/25/25; not chronological",
+  "seeds": [
+    20261025,
+    20261026,
+    20261027
+  ],
+  "models": [
+    "LR C=1 max_iter=2000; training-median imputation and standardization",
+    "RF 120 trees min_samples_leaf=5 max_features=sqrt; training-median imputation"
+  ],
+  "objective": "F2",
+  "distances": [
+    0.05,
+    0.1
+  ],
+  "budget": 2,
+  "time_limit_seconds": 5,
+  "repeats": 1,
+  "solver_sha256": "024ca586583b4b6a0925369798a17bda152045c0f1b5e73be94856789facc6b9",
+  "timing": "one callable per case including solver preparation; excludes fitting, loading and independent witness checks; no comparative speedup",
+  "limitations": "one naturally rare-positive benchmark; dependent splits, not extreme-imbalance universality; temporal observations with random splits do not establish future forecasting accuracy; no test predictions"
+}
