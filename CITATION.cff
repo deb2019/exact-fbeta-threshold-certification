@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Exact Label-Edit Certificates for Empirical F-Measure Threshold Selection in Imbalanced Classification: code and results"
+type: software
+authors:
+  - family-names: Banerjee
+    given-names: Ayana
+    affiliation: "Department of Computer and System Sciences, Visva-Bharati University"
+license: MIT
+version: "1.0.0"
+date-released: "2026-11-07"
+keywords:
+  - imbalanced classification
+  - decision threshold
+  - F measure
+  - label sensitivity
+  - exact certification
+  - dynamic programming
