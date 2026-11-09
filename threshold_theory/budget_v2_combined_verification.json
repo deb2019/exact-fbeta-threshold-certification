@@ -1,0 +1,22 @@
+{
+  "real_runs": 60,
+  "exact_witnesses_verified": 26,
+  "previous_single_flip_verdicts_matched": 60,
+  "exhaustive": {
+    "configurations_distance_beta_checks": 6714,
+    "independent_witness_checks": 5998,
+    "exhaustive_n": "1..7",
+    "beta_squared": [
+      "1/4",
+      "1",
+      "4"
+    ],
+    "patterns": [
+      "distinct",
+      "paired ties",
+      "all tied"
+    ],
+    "seconds": 3.0414035320281982,
+    "all_passed": true
+  }
+}

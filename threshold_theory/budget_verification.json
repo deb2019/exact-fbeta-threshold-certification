@@ -1,0 +1,17 @@
+{
+  "configurations_distance_beta_checks": 1530,
+  "independent_witness_checks": 1388,
+  "exhaustive_n": "1..5",
+  "beta_squared": [
+    "1/4",
+    "1",
+    "4"
+  ],
+  "patterns": [
+    "distinct",
+    "paired ties",
+    "all tied"
+  ],
+  "seconds": 0.4620509147644043,
+  "all_passed": true
+}
